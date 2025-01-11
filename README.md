@@ -1,0 +1,3 @@
+# F# Mutable Variable Bug
+
+This repository demonstrates a subtle but crucial difference in how mutable variables behave in F# when used directly versus within a function. The core issue is the unexpected behavior of mutable variables when passed as arguments to a function.  The code shows a seemingly simple variable swap function that produces unexpected results when used within a function context compared to direct use. The solution provides a correct and efficient approach to handle mutable variable swaps inside functions.
